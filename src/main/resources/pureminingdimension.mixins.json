@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "evangamer2018.pureminingdimension.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BiomeSelectorsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "pureminingdimension",
+  "version": "${version}",
+
+  "name": "PureMiningDimension",
+  "description": "A Pure Mining Dimension",
+  "authors": [
+    "EvanGamer2018"
+  ],
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "evangamer2018.pureminingdimension.PureMiningDimension"
+    ]
+  },
+  "mixins": [
+    "pureminingdimension.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  }
+}

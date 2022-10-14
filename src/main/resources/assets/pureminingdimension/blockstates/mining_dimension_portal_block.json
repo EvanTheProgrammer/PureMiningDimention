@@ -1,0 +1,5 @@
+{
+    "variants": {
+      "": { "model": "pureminingdimension:block/mining_dimension_portal_block" }
+    }
+  }
